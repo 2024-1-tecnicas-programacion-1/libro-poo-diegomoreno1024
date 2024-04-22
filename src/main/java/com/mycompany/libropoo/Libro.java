@@ -24,7 +24,7 @@ public class Libro {
     public void marcarLeido(){
         this.leido=true;
     }
-    //
+    //La complejidad de este método es constante, O(1).
     public String getLeido(){
         if(this.leido==true){
             return "El libro fue leido.";
